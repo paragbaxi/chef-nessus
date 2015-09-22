@@ -11,9 +11,7 @@ users.each_pair do |user,password|
   bash "nessus_add_user_#{user}" do
     user "root"
     code <<-EOF
-      /usr/bin/expect -c 'spawn /opt/nessus/sbin/nessus-adduser
-      expect "Login : "
-      send "#{user}\r"
+      /opt/nessus/sbin/nessuscli adduser admin "#{user}"
 
       expect "Login password : "
       send "#{password}\r"
