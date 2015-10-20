@@ -7,7 +7,7 @@ activate your feed subscription.
 Requirements
 ------------
 
-Tenable does not seem to offer direct download of the Nessus installer
+Tenable does not currently offer direct download of the Nessus installer
 so currently we have to rely on it being somewhere on the filesystem.
 This can be accomplished with another cookbook, shared directory, etc.
 
