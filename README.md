@@ -92,6 +92,4 @@ Contributing
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request using Github
 
-License and Authors
--------------------
-Authors: Jason Rohwedder <jro@risk.io>
+Forked from Jason Rohwedder <jro@risk.io>
